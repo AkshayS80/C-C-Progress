@@ -10,12 +10,12 @@ int main(){
 		printf("Memory not allocated\n");
 	}
 	else{
-		printf("Memory successfully allocated using calloc\n");
-		printf("Enter the elements;");
-		for(i=1;i<=n;++i){
-			scanf("%d\n",&ptr[i]);
+		printf("Memory successfully allocated using malloc\n");
+		printf("Enter the elements");
+		for(i=0;i<n;++i){
+			scanf("%d",&ptr[i]);
 		}	
-		printf("The elements are");
+		printf("The elements are\n");
 		for(i=0;i<n;++i){
 			printf("%d\n",ptr[i]);
 		}	
