@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-    int i,j,n,element,pos,found,arr[10];
+    int i,j,n,element,pos,arr[10];
     printf("Enter the number of elements:");
     scanf("%d",&n);
     printf("Enter the elements: \n");
