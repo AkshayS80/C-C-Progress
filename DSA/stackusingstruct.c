@@ -57,7 +57,7 @@ void push(){
     }
 }
 void pop(){
-    if (top<=-1){
+    if (st.top<=-1){
         printf("Underflow: No more elements can be deleted.");
     }
     else{
@@ -66,7 +66,7 @@ void pop(){
     }
 }
 void display(){
-    if (top>=-1){
+    if (st.top>=-1){
         printf("Elements of the stack:\n");
         for(i=st.top;i>=0;i--){
             printf("<- %d ",st.s[i]);
