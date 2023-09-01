@@ -18,7 +18,6 @@ void display();
 int main()
 {
     st.top=-1;
-    printf("\nSTACK IMPLEMENTATION USING ARRAYS\n");
     while(choice!=4){
         printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n");
         printf("Enter the choice:");
