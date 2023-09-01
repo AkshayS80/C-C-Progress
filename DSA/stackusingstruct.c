@@ -69,7 +69,7 @@ void display(){
     if (st.top>=-1){
         printf("Elements of the stack:\n");
         for(i=st.top;i>=0;i--){
-            printf("<- %d ",st.s[i]);
+            printf("%d ",st.s[i]);
         }
     }
     else{
