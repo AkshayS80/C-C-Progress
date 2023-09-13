@@ -10,8 +10,7 @@
 char stack[SIZE];
 int top = -1;
 
-void push(char item)
-{
+void push(char item){
     if (top >= SIZE - 1){
         printf("\nStack Overflow.");
     }
@@ -21,8 +20,7 @@ void push(char item)
     }
 }
 
-char pop()
-{
+char pop(){
     char item;
 
     if (top < 0){
