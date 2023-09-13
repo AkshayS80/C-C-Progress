@@ -36,8 +36,7 @@ char pop(){
 }
 
 
-int is_operator(char symbol)
-{
+int is_operator(char symbol){
     if (symbol == '^' || symbol == '*' || symbol == '/' || symbol == '+' || symbol == '-'){
         return 1;
     }
@@ -48,8 +47,7 @@ int is_operator(char symbol)
 
 
 
-int precedence(char symbol)
-{
+int precedence(char symbol){
     if (symbol == '^'){
         return (3);
     }
@@ -64,8 +62,7 @@ int precedence(char symbol)
     }
 }
 
-void InfixToPostfix(char infix_exp[], char postfix_exp[])
-{
+void InfixToPostfix(char infix_exp[], char postfix_exp[]){
     int i, j;
     char item;
     char x;
